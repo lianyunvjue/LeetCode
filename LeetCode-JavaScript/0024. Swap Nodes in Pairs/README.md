@@ -1,0 +1,48 @@
+# [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+## Description
+
+Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)
+
+ 
+
+**Example 1:**
+
+![img](https://assets.leetcode.com/uploads/2020/10/03/swap_ex1.jpg)
+
+```
+Input: head = [1,2,3,4]
+Output: [2,1,4,3]
+```
+
+**Example 2:**
+
+```
+Input: head = []
+Output: []
+```
+
+**Example 3:**
+
+```
+Input: head = [1]
+Output: [1]
+```
+
+ 
+
+**Constraints:**
+
+- The number of nodes in the list is in the range `[0, 100]`.
+- `0 <= Node.val <= 100`
+
+## 题目
+
+给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
+
+**你不能只是单纯的改变节点内部的值**，而是需要实际的进行节点交换。
+
+
+
+## 解题思路
+
